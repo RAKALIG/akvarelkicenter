@@ -43,7 +43,7 @@ img {
     min-height: 100%;
     overflow: hidden;
     position: relative;
-   
+    background: url(/img/content/bg/чисто\ голубой\ фон\ с\ рыбами.jpg) no-repeat center/cover;
 }
 
 
@@ -60,8 +60,9 @@ img {
 }
 
 .section-top {
-    background: url(/img/content/bg/акварельки\ bg-white\ blue\ water\ new\ big\ width.jpg) no-repeat center/cover;
+    /*background: url(/img/content/bg/акварельки\ bg\ up.jpg) no-repeat center/cover;*/
     height: 100vh;
+
 }
 
 .container {
@@ -154,7 +155,7 @@ img {
     font-size: 25px;
 }
 .hero__information {
-    font-size: 15px;
+    font-size: 20px;
 }
 .img {
     padding-top: 100px;
@@ -163,7 +164,7 @@ img {
 }
 .advantages {
     height: 300px;
-    background: url(/img/content/bg/акварельки\ bg-white\ blue\ water\ new\ big\ width\ center.jpg) no-repeat center/cover;
+   /* background: url(/img/content/bg/акварельки\ bg\ price.jpg) no-repeat center/cover;*/
     color: #ffffff;
 }
 .container-advantages {
@@ -183,6 +184,9 @@ img {
     height: 170px;
     border-radius: 4px;
     font-family: 'Roboto', sans-serif ;
+    color: #00b3ff;
+    background: #ffffff;
+    font-weight: 600;
 }
 
 .test{
@@ -193,6 +197,7 @@ img {
     font-size: 21px;
     height: 50px;
     border-bottom: 2px solid #ffffff ;
+    padding-top: 10px;
 }
 .advantage-text {
     padding-top: 15%;
@@ -204,7 +209,8 @@ img {
     text-align: center;
 }
 
-.scheduleandcoaches { background: url(/img/content/bg/акварельки\ bg-white\ blue\ water\ new\ big\ width\ center2.jpg) no-repeat center/cover;
+.scheduleandcoaches { 
+   /* background: url(/img/content/bg/акварельки\ bg-white\ blue\ water\ new\ big\ width\ center2.jpg) no-repeat center/cover; */
 }
 .container__scheduleandcoaches {
 }
@@ -349,6 +355,7 @@ img {
 }
 
 .contacts {
+    
 }
 
 .footer__title {
@@ -365,7 +372,8 @@ img {
 
 .location {
     margin: 0;
-    padding-bottom: 10px
+    padding-bottom: 10px;
+    color: #ffffff;
 }
 
 .net {
