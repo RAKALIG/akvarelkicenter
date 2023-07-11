@@ -53,11 +53,9 @@ img {
     margin: 0 auto;
 }
 
-.wrapper {
-}
-.header {
+.wrapper {}
 
-}
+.header {}
 
 .section-top {
     /*background: url(/img/content/bg/акварельки\ bg\ up.jpg) no-repeat center/cover;*/
@@ -65,17 +63,19 @@ img {
 
 }
 
-.container {
-}
+.container {}
+
 .container__header {
     display: flex;
     column-gap: 250px;
 }
+
 .logo {
     height: 150px;
     width: 150px;
     padding-top: 15px;
 }
+
 .logo__img {
     height: 150px;
     width: 150px;
@@ -93,29 +93,37 @@ img {
 .pink {
     color: #ea0886;
 }
+
 .blue {
-    color: #00b3ff ;
+    color: #00b3ff;
 }
+
 .green {
     color: #afca1b;
 }
+
 .orange {
-    color: #f27e19 ;
+    color: #f27e19;
 }
+
 .darkblue {
     color: #054a7c;
 }
+
 .yellow {
-    color: #fdd303 ;
+    color: #fdd303;
 }
+
 .purple {
-    color: #7d71b1 ;
+    color: #7d71b1;
 }
+
 .red {
     color: #ea1b23;
 }
+
 .pinkorpurple {
-    color: #aa2582; 
+    color: #aa2582;
 }
 
 .darkgreen {
@@ -128,12 +136,12 @@ img {
     font-size: 25px;
     color: #fdd303;
 }
-.main {
-}
-.hero {
-}
 
-.container__hero{
+.main {}
+
+.hero {}
+
+.container__hero {
     display: flex;
     column-gap: 70px;
     color: #ffffff;
@@ -145,32 +153,39 @@ img {
     padding-left: 40px;
     font-family: 'Philosopher', sans-serif;
 }
+
 .hero__text-title {
     margin-top: 100px;
-    
+
     font-size: 50px;
 }
+
 .hero__text-subtitle {
 
     font-size: 25px;
 }
+
 .hero__information {
     font-size: 20px;
 }
+
 .img {
     padding-top: 100px;
 }
-.hero__img {
-}
+
+.hero__img {}
+
 .advantages {
     height: 300px;
-   /* background: url(/img/content/bg/акварельки\ bg\ price.jpg) no-repeat center/cover;*/
+    /* background: url(/img/content/bg/акварельки\ bg\ price.jpg) no-repeat center/cover;*/
     color: #ffffff;
 }
+
 .container-advantages {
     text-align: center;
 
 }
+
 .advantages-list {
     display: flex;
     column-gap: 15px;
@@ -178,27 +193,29 @@ img {
     justify-content: center;
     padding-top: 15px;
 }
+
 .advantage {
     border: 2px solid #ffffff;
     width: 150px;
     height: 170px;
     border-radius: 4px;
-    font-family: 'Roboto', sans-serif ;
+    font-family: 'Roboto', sans-serif;
     color: #00b3ff;
     background: #ffffff;
     font-weight: 600;
 }
 
-.test{
+.test {
     padding-top: 15px;
 }
 
 .advantage-icon {
     font-size: 21px;
     height: 50px;
-    border-bottom: 2px solid #ffffff ;
+    border-bottom: 2px solid #ffffff;
     padding-top: 10px;
 }
+
 .advantage-text {
     padding-top: 15%;
     font-size: 20px;
@@ -209,15 +226,17 @@ img {
     text-align: center;
 }
 
-.scheduleandcoaches { 
-   /* background: url(/img/content/bg/акварельки\ bg-white\ blue\ water\ new\ big\ width\ center2.jpg) no-repeat center/cover; */
+.scheduleandcoaches {
+    /* background: url(/img/content/bg/акварельки\ bg-white\ blue\ water\ new\ big\ width\ center2.jpg) no-repeat center/cover; */
 }
-.container__scheduleandcoaches {
-}
+
+.container__scheduleandcoaches {}
+
 .schedule {
     height: 400px;
     color: #ffffff;
 }
+
 .schedule__title {
     font-weight: 700;
     font-size: 54px;
@@ -225,6 +244,7 @@ img {
     text-align: center;
     padding-bottom: 20px;
 }
+
 .schedule-week {
     text-align: center;
     font-weight: 400;
@@ -232,24 +252,28 @@ img {
     line-height: 38px;
     padding-bottom: 20px;
 }
-.red {
-}
+
+.red {}
+
 .warning {
     text-align: center;
     font-size: 15px;
 }
+
 .coaches {
     height: 450px;
     margin-top: 50px;
 }
+
 .coaches__list {
     display: flex;
     column-gap: 30px;
 }
+
 .coach {
     height: 320px;
     width: 320px;
-  /*  border: #ffffff solid 2px;
+    /*  border: #ffffff solid 2px;
     border-radius: 4px; */
 }
 
@@ -265,6 +289,7 @@ img {
     border-radius: 4px;
     transform: translate(50px);
 }
+
 .coach_info {
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
@@ -277,7 +302,7 @@ img {
     text-align: center;
     font-size: 30px;
     color: #00b3ff;
-    
+
 }
 
 .button {
@@ -296,13 +321,34 @@ img {
     margin-top: 10px;
 }
 
+.input_text {}
+
+.input__tel:focus {}
+
+
+.btn {
+    border: 2px solid #054a7c;
+    border-radius: 4px;
+    background: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    color: #32a3e0;
+    font-size: 20px;
+    margin: 0 auto;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 700;
+    width: 200px;
+    height: 50px;
+}
+
 .popup-bg {
     position: fixed;
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
-    background: rgba(0,0,0,0.8);
+    background: rgba(0, 0, 0, 0.8);
     display: none;
 }
 
@@ -327,7 +373,9 @@ img {
 }
 
 .title-leg {
-    padding-bottom: 10px;
+
+    color: #00b3ff;
+
 }
 
 .popup form {
@@ -339,7 +387,7 @@ img {
 
 .popup form input {
     width: 60%;
-    border: 2px solid black;
+    border: 2px solid #054a7c;
     font-size: 20px;
     margin-bottom: 30px;
     height: 40px;
@@ -354,9 +402,7 @@ img {
     overflow-y: hidden;
 }
 
-.contacts {
-    
-}
+.contacts {}
 
 .footer__title {
     font-size: 25px;
@@ -366,6 +412,7 @@ img {
     display: flex;
     column-gap: 10px;
 }
+
 .contacts__title {
     text-align: center;
 }
@@ -387,16 +434,662 @@ img {
     display: flex;
     flex-direction: column;
 }
+
 .net__img {
     width: 30px;
     height: 30px;
 }
+
 .net-title {
-    text-align: center;           
-    transform: translate(0, 20%) 
-    
+    text-align: center;
+    transform: translate(0, 20%);
+    color: #ffffff;
+
 }
-.telephone {
-}
+
+.telephone {}
+
 .tel {
+    color: #ffffff;
+}
+
+
+@media (max-width: 960px) {
+    .container {
+        max-width: 896px;
+        padding: 0px 5px;
+        margin: 0 auto;
+    }
+
+    .container {}
+
+    .container__header {
+        display: flex;
+        column-gap: 150px;
+    }
+
+    .logo {
+        height: 150px;
+        width: 150px;
+        padding-top: 15px;
+    }
+
+    .logo__img {
+        height: 130px;
+        width: 130px;
+    }
+
+    .container__hero {
+        display: flex;
+        column-gap: 50px;
+        color: #ffffff;
+    }
+
+    .hero__text {
+        width: 600px;
+        height: 600px;
+        padding-left: 30px;
+        font-family: 'Philosopher', sans-serif;
+    }
+
+    .hero__text-title {
+        margin-top: 100px;
+        font-size: 40px;
+    }
+
+    .hero__text-subtitle {
+
+        font-size: 20px;
+    }
+
+    .hero__information {
+        font-size: 18px;
+    }
+
+    .img__coach {
+        height: 200px;
+        width: 150px;
+        transform: translate(20%);
+    }
+
+}
+
+@media (max-width: 900px) {
+    .coaches {
+        height: 450px;
+        margin-top: 50px;
+    }
+
+    .coaches__list {
+        display: flex;
+        column-gap: 20px;
+    }
+
+    .coach {
+        height: 300px;
+        width: 300px;
+    }
+
+    .coach__inst {
+        text-align: center;
+        margin: 0;
+    }
+
+    .img__coach {
+        height: 200px;
+        width: 150px;
+        transform: translate(20%);
+    }
+
+    .coach_info {
+        font-size: 13px;
+    }
+
+    .net1 {
+        width: 120px;
+    }
+
+    .net2 {
+        width: 120px;
+    }
+
+}
+
+@media (max-width: 800px) {
+    .container__hero {
+        column-gap: 20px;
+    }
+
+    .container__header {
+        display: flex;
+        column-gap: 120px;
+    }
+
+    .advantages-list {
+        display: flex;
+        column-gap: 15px;
+        align-items: center;
+        justify-content: center;
+        padding-top: 15px;
+    }
+
+    .advantage {
+        border: 2px solid #ffffff;
+        width: 120px;
+        height: 150px;
+        border-radius: 4px;
+        font-family: 'Roboto', sans-serif;
+        color: #00b3ff;
+        background: #ffffff;
+        font-weight: 600;
+    }
+
+    .test {
+        padding-top: 15px;
+    }
+
+    .advantage-icon {
+        font-size: 17px;
+        height: 50px;
+        border-bottom: 2px solid #ffffff;
+        padding-top: 10px;
+    }
+
+    .advantage-text {
+        padding-top: 15%;
+        font-size: 17px;
+    }
+
+    .coaches__list {
+        display: flex;
+        column-gap: 0px;
+    }
+
+    .coach {
+        height: 300px;
+        width: 300px;
+    }
+
+    .img__coach {
+        height: 175px;
+        width: 125px;
+        transform: translate(30%);
+    }
+
+
+}
+
+@media (max-width: 750px) {
+
+
+    .title {
+        font-family: 'Roboto', sans-serif;
+        font-size: 40px;
+    }
+
+    .schedule__title {
+        font-size: 40px;
+    }
+
+    .schedule-week {
+        text-align: center;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 30px;
+        padding-bottom: 20px;
+    }
+
+    .footer__title {
+        font-size: 20px;
+    }
+
+    .title__h {
+        font-size: 55px;
+    }
+}
+
+
+@media (max-width: 700px) {
+
+    .container__header {
+        display: flex;
+        column-gap: 70px;
+    }
+
+    .container__hero {
+        display: flex;
+        column-gap: 0px;
+        color: #ffffff;
+    }
+
+    .img__coach {
+        height: 175px;
+        width: 125px;
+        transform: translate(20%);
+    }
+}
+
+@media (max-width: 650px) {
+
+
+    .container__header {
+        column-gap: 50px;
+    }
+    
+    
+    .hero__text-title {
+        margin-top: 100px;
+        font-size: 30px;
+    }
+    
+    .hero__text-subtitle {
+        font-size: 17px;
+    }
+    
+    .hero__information {
+        font-size: 15px;
+    }
+    
+    .img {
+        padding-top: 60px;
+    }
+    
+
+    
+    .advantage {
+        border: 2px solid #ffffff;
+        width: 125px;
+        height: 145px;
+        font-weight: 500;
+    }
+
+    .advantage-icon {
+        font-size: 17px;
+        height: 50px;
+    }
+    .schedule {
+        height: 400px;
+
+    }
+    
+    .coaches {
+        height: 400px;
+        margin-top: 25px;
+    }
+    
+    
+    .coach {
+        height: 320px;
+        width: 320px;
+    }
+    
+    
+    .img__coach {
+        height: 140px;
+        width: 100px;
+        transform: translate(20%);
+    }
+    .coach_info {
+        font-size: 13px;
+    }
+    
+    
+    .button {
+        font-family: 'Roboto', sans-serif;
+        color: #32a3e0;
+        font-size: 30px;
+        margin: 0 auto;
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        padding: 20px 50px;
+        background: #ffffff;
+        max-width: 300px;
+        font-weight: 700;
+        border-radius: 4px;
+        margin-top: 10px;
+    }
+    
+    .contacts{
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 420px) {
+
+    .section-top {
+        height: 60vh;
+    
+    }
+
+    .container__header {
+        display: flex;
+        column-gap: 35px;
+    }
+    
+    .logo {
+        height: 100px;
+        width: 100px;
+        padding-top: 15px;
+    }
+    
+    .logo__img {
+        height: 100px;
+        width: 100px;
+    }
+    
+    .header__text {
+        padding-top: 20px;
+    }
+    
+    .title {
+        font-size: 20px;
+        font-weight: 550;
+    }
+
+    .title__h {
+        font-family: 'Roboto', sans-serif;
+        font-size: 35px;
+    }
+    
+    .subtitle {     
+        font-size: 16px;
+    }
+     
+    .container__hero {
+        column-gap: 0px;
+    }
+    
+    .hero__text {
+        width: 250px;
+        height: 250px;
+        padding-left: 5px;
+
+    }
+    
+    .hero__text-title {
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    
+    .hero__text-subtitle {
+        font-size: 17px;
+    }
+    
+    .hero__information {
+        font-size: 16px;
+    }
+
+    .hero__img {
+        width: 275px;
+        height: 250px;
+    }
+    
+    .img {
+        padding-top: 20px;
+    }
+    
+    .advantages {
+        height: 250px;
+    }
+    
+    .advantages-list {
+        display: flex;
+        column-gap: 5px;
+        align-items: center;
+        justify-content: center;
+        padding-top: 15px;
+    }
+    
+    .advantage {
+        border: 2px solid #ffffff;
+        width: 70px;
+        height: 90px;
+        font-weight: 550;
+    }
+    
+    .test {
+        padding-top: 7px;
+    }
+    
+    .advantage-icon {
+        word-break:break-all;
+        font-size: 14px;
+        height: 24px;
+        border-bottom: 2px solid #ffffff;
+        padding-top: 0px;
+    }
+    
+    .advantage-text {
+        padding-top: 10px;
+        font-size: 14px;
+    }
+    
+    .warning-info {
+        padding-top: 5px;
+        text-align: center;
+    }
+    
+    .schedule {
+        height: 350px;
+        color: #ffffff;
+    }
+    
+    .schedule__title {
+        font-weight: 700;
+        font-size: 37px;
+        line-height: 63px;
+        text-align: center;
+        padding-bottom: 4px;
+    }
+    
+    .schedule-week {
+        text-align: center;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 27px;
+        padding-bottom: 20px;
+    }
+    
+    .coaches {
+        height: 1400px;
+        margin-top: 50px;
+    }
+    
+    .coaches__list {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        column-gap: 30px;
+    }
+    
+    .coach {
+        height: 320px;
+        width: 320px;
+        /*  border: #ffffff solid 2px;
+        border-radius: 4px; */
+    }
+    
+    .coach__inst {
+        text-align: center;
+        margin: 0;
+    }
+    
+    .img__coach {
+        height: 200px;
+        width: 150px;
+        border: #ffffff solid 2px;
+        border-radius: 4px;
+        transform: translate(60%);
+    }
+    
+    .coach_info {
+        font-size: 15px;
+        font-family: 'Roboto', sans-serif;
+        color: #ffffff;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .reg-title {
+        text-align: center;
+        font-size: 30px;
+        color: #00b3ff;
+    
+    }
+    
+    .button {
+        font-family: 'Roboto', sans-serif;
+        color: #32a3e0;
+        font-size: 30px;
+        margin: 0 auto;
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        padding: 20px 50px;
+        background: #ffffff;
+        max-width: 300px;
+        font-weight: 700;
+        border-radius: 4px;
+        margin-top: 10px;
+    }
+    
+    .input_text {}
+    
+    .input__tel:focus {}
+    
+    
+    .btn {
+        border: 2px solid #054a7c;
+        border-radius: 4px;
+        background: #ffffff;
+        font-family: 'Roboto', sans-serif;
+        color: #32a3e0;
+        font-size: 20px;
+        margin: 0 auto;
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        font-weight: 700;
+        width: 200px;
+        height: 50px;
+    }
+    
+    .popup-bg {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.8);
+        display: none;
+    }
+    
+    .popup {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 600px;
+        background: #ffffff;
+        padding: 20px;
+        transform: translate(-50%, -50%);
+        padding-top: 60px;
+    }
+    
+    .close-popup {
+        position: absolute;
+        top: 30px;
+        width: 30px;
+        height: 30px;
+        right: 30px;
+        cursor: pointer;
+    }
+    
+    .title-leg {
+    
+        color: #00b3ff;
+    
+    }
+    
+    .popup form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .popup form input {
+        width: 60%;
+        border: 2px solid #054a7c;
+        font-size: 20px;
+        margin-bottom: 30px;
+        height: 40px;
+    }
+    
+    .popup form input[type="submit"] {
+        background: black;
+        color: white;
+    }
+    
+    .no-scroll {
+        overflow-y: hidden;
+    }
+    
+    .contacts {}
+    
+    .footer__title {
+        font-size: 20px;
+    }
+    
+    .socialnetwork {
+        display: flex;
+        column-gap: 10px;
+    }
+    
+    .contacts__title {
+        text-align: center;
+    }
+    
+    .location {
+        margin: 0;
+        padding-bottom: 10px;
+        color: #ffffff;
+    }
+
+   
+    .net {
+        display: flex;
+        width: 200px;
+        height: 30px;
+        column-gap: 5px;
+    }
+
+     .net1 {
+        width: 140px;
+
+    }
+    
+    .net2 {
+        width: 140px;
+    }
+    
+    .network {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .network2 {
+        transform: translate(-75%, 40%);
+    }
+
+    .net__img {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .net-title {
+        text-align: center;
+        transform: translate(0, 20%);
+        color: #ffffff;
+    }
 }

@@ -24,7 +24,7 @@
                         <img src="img/logo/logo.png" alt="Логотип" class="logo__img">
                     </a>
                     <div class="header__text">
-                        <h2 class="title"><span class="pink">А</span><span class="blue">к</span><span
+                        <h2 class="title title__h"><span class="pink">А</span><span class="blue">к</span><span
                                 class="darkgreen">в</span><span class="orange">а</span><span
                                 class="darkblue">р</span><span class="yellow">е</span><span class="purple">л</span><span
                                 class="red">ь</span><span class="green">к</span><span class="pinkorpurple">и</span></h2>
@@ -184,13 +184,13 @@
                         <div class="popup-bg">
                             <div class="popup">
                                 <img src="img/icons/close.png" alt="" class="close-popup">
-                                <form action="php/telegram.php" method="POST">
+                                <form action="php/telegram.php" method="POST"> 
                                     <legend class="title-leg">
                                         <h2>Заполните данные</h2>
                                     </legend>
-                                    <input type="text" name="popup-form user_name" placeholder="Ваше имя">
-                                    <input type="tel" name="popup-form user_phone" placeholder="Ваш номер">
-                                    <button type="submit">Отправить заявку</button>
+                                    <input type="text" name="popup-form user_name" placeholder="Ваше имя" class="input_text">
+                                    <input type="tel" name="popup-form user_phone" placeholder="Ваш номер" class="input__tel">
+                                    <button type="submit" class="btn">Отправить заявку</button>
                                 </form>
 
                             </div>
@@ -199,9 +199,6 @@
                     </div>
 
                 </div>
-            </section>
-            <section class="registration">
-
             </section>
             <footer class="contacts">
                 <div class="container socialnetwork">
@@ -215,8 +212,9 @@
                             <a href="tel:+73452689088" class="tel">+7 (345) 268-90-88</a>
                         </address>
                     </div>
-                    <ul class="network">
-                        <li class="net">
+
+                    <ul class="network ">
+                        <li class="net net1">
                             <a href="#!" class="net__img">
                                 <img src="/img/icons/vk.png" alt="vk">
                             </a>
@@ -224,7 +222,7 @@
                                 вконтакте
                             </a>
                         </li>
-                        <li class="net">
+                        <li class="net net2">
                             <a href="#!" class="net__img">
                                 <img src="/img/icons/telegram.png" alt="telegram">
                             </a>
@@ -233,7 +231,7 @@
                             </a>
                         </li>
                     </ul>
-                    <ul class="network">
+                    <ul class="network network2">
                         <li class="net">
                             <a href="#!" class="net__img">
                                 <img src="/img/icons/viber.png" alt="vb">
