@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Philosopher:ital@0;1&family=Roboto:ital,wght@0,400;0,500;1,300;1,400;1,500&family=Sofia+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container header__container">
+                <a class="logo" href="index.html">
+                    <h2 class="title__h"><span class="pink">А</span><span class="blue">к</span><span
+                            class="darkgreen">в</span><span class="orange">а</span><span class="darkblue">р</span><span
+                            class="yellow">е</span><span class="purple">л</span><span class="red">ь</span><span
+                            class="green">к</span><span class="pinkorpurple">и</span></h2>
+                    <h5 class="subtitle">Центр раннего плавания</h5>
+                </a>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item active">
+                            <a href="" class="nav__link">Главная</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#price" class="nav__link">Цены</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#help" class="nav__link">Вопросы</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <address class="header__contacts">
+                    <p class="location">Тюмень, спасская 14 цокольный этаж</p>
+                    <a href="tel:+73452689088" class="tel">+7 (345) 268-90-88</a>
+                </address>
+            </div>
+        </header>
+        <main class="main">
+            <section class="hero">
+                <div class="container hero__container">
+                    <div class="hero__main">
+                        <h1 class="title hero__title">
+                            Центр раннего плавания <br>
+                            в тюмени
+                        </h1>
+                        <div class="hero__subtitle">
+                            для детей от 2 мес до 7 лет. <br>
+                            Пробное занятие <span class="yellow">350 руб.</span>
+                        </div>
+                        <a href="#" class="btn button open-popup">Оставить заявку</a>
+
+                    </div>
+
+                </div>
+
+            </section>
+            <div class="popup-bg">
+                <div class="popup">
+                    <img src="img/icons/close.png" alt="" class="close-popup">
+                    <form action="php/telegram.php" method="POST">
+                        <legend class="title-leg">
+                            <h2>Заполните данные</h2>
+                        </legend>
+                        <input type="text" name="popup-form user_name" placeholder="Ваше имя" class="input_text">
+                        <input type="tel" name="popup-form user_phone" placeholder="Ваш номер" class="input__tel">
+                        <input type="date" name="popup-form user_date" class="input__tel">
+                        <button type="submit" class="btn">Отправить заявку</button>
+                    </form>
+                </div>
+            </div>
+            <section class="abonements">
+                <div class="container">
+                    <div class="abonements__title">
+                        Абонементы
+                    </div>
+                    <div id="price" class="table">
+                        <ul class="table__list">
+                            <li class="table__title">
+                                <p class="table__title-ogl">
+                                    Абонемент
+                                </p>
+                                <p class="table__title-ogl">
+                                    Стоимость
+                                </p>
+                                <p class="table__title-ogl">
+                                    Срок действия
+                                </p>
+                            </li>
+                            <li class="abonement">
+                                <p class="abonement__title">
+                                    Разовый
+                                </p>
+                                <p class="abonement__price">
+                                    950
+                                </p>
+                                <p class="abonement__period">
+                                    -
+                                </p>
+                            </li>
+                            <li class="abonement">
+                                <p class="abonement__title">
+                                    4 занятия
+                                </p>
+                                <p class="abonement__price">
+                                    3 600
+                                </p>
+                                <p class="abonement__period">
+                                    1 месяц
+                                </p>
+                            </li>
+                            <li class="abonement">
+                                <p class="abonement__title">
+                                    8 занятий
+                                </p>
+                                <p class="abonement__price">
+                                    6 800
+                                </p>
+                                <p class="abonement__period">
+                                    2 месяца
+                                </p>
+                            </li>
+                            <li class="abonement">
+                                <p class="abonement__title">
+                                    12 занятий
+                                </p>
+                                <p class="abonement__price">
+                                    9 600
+                                </p>
+                                <p class="abonement__period">
+                                    2 месяца
+                                </p>
+                            </li>
+                            <li class="abonement">
+                                <p class="abonement__title">
+                                    16 занятий
+                                </p>
+                                <p class="abonement__price">
+                                    12 400
+                                </p>
+                                <p class="abonement__period">
+                                    2 месяца
+                                </p>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="helper">
+                <div class="container" id="help">
+                    <div class="helper__title">
+                        Часто задаваемые вопросы
+                    </div>
+                    <div class="windows">
+                        <div class="window">
+                            <button type="button" class="trigger">Что взять с собой на занятие?</button>
+                            <div class="content">
+                                1)справка от педиатра об отсутствии противопоказаний для занятий плаванием <br>
+                                2)сменная обувь (для себя и для ребенка) <br>
+                                3) аквапамперс для детей до 3-х лет. деткам постарше: плавки или купальник. <br>
+                                4) шапочка всем детям от 1 года
+                            </div>
+                        </div>
+
+                        <div class="window">
+                            <button type="button" class="trigger trigger2">Как проводятся занятия?</button>
+                            <div class="content">
+                                Все занятия проводятся в формате «1 ребенок – 1 бассейн – 1 инструктор». С вашим
+                                ребенком на протяжении всего занятия в игровой форме персонально будет заниматься
+                                понравившейся вам инструктор. <br>
+                                Занятие длится 30 минут. <br>
+                                Индивидуальный подход к каждому ребенку позволяет подобрать такой набор упражнений и
+                                выстроить занятие так, чтобы не только научить его плавать, но и улучшить его физическое
+                                и психоэмоциональное состояние!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="Photo">
+                <div class="helper__title">
+                    Фотогалерея
+                </div>
+                <div class="all">
+                    <input checked type="radio" name="respond" id="desktop">
+                    <article id="slider">
+                        <input checked type="radio" name="slider" id="switch1">
+                        <input type="radio" name="slider" id="switch2">
+                        <input type="radio" name="slider" id="switch3">
+                        <input type="radio" name="slider" id="switch4">
+                        <input type="radio" name="slider" id="switch5">
+                        <div id="slides">
+                            <div id="overflow">
+                                <div class="image">
+                                    <article><img src="img/content/acva1.jpg"></article>
+                                    <article><img src="img/content/acva2.jpg"></article>
+                                    <article><img src="img/content/acva3.jpg"></article>
+                                    <article><img src="img/content/acva4.jpg"></article>
+                                    <article><img src="img/content/acva5.jpg"></article>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="controls">
+                            <label for="switch1"></label>
+                            <label for="switch2"></label>
+                            <label for="switch3"></label>
+                            <label for="switch4"></label>
+                            <label for="switch5"></label>
+                        </div>
+                        <div id="active">
+                            <label for="switch1"></label>
+                            <label for="switch2"></label>
+                            <label for="switch3"></label>
+                            <label for="switch4"></label>
+                            <label for="switch5"></label>
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <section class="contacts">
+                <div class="container container__footer">
+                    <div class="contacts__table" id="contact">
+                        <p class="contacts__title">
+                            Контакты
+                        </p>
+                        <div class="contacts__list">
+                            <address class="contacts__address contacts__tel">
+                                <p class="location__footer">Тюмень, спасская 14 цокольный этаж</p>
+                                <a href="tel:+73452689088" class="tel__footer">+7 (345) 268-90-88</a>
+                            </address>
+                            <div class="net__list">
+                                <a href="https://vk.com/club188765778" class="net">
+                                    <img src="/img/icons/vk.png" alt="" class="net__img">
+                                </a>
+                                <a href="" class="net">
+                                    <img src="/img/icons/telegram.png" alt="" class="net__img">
+                                </a>
+                                <a href="tel:+79923141441" class="net">
+                                    <img src="/img/icons/viber.png" alt="" class="net__img">
+                                </a>
+                                <a href="tel:+79923141441" class="net">
+                                    <img src="/img/icons/watsapp.png" alt="" class="net__img">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="help__footer">По любым вопросам вы можете <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; обратиться к нам</div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+    </div>
+    <script src="js/scrolling.js"></script>
+    <script src="js/window.js"></script>
+    <script src="css/style.scss"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
